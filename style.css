@@ -1,0 +1,129 @@
+/* Définition des polices personnalisées */
+@font-face
+{
+    font-family: 'glacial-indifference';
+    src: url('fonts/glacial-indifference-regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'glacial-indifference-bold';
+    src: url('fonts/glacial-indifference-bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'glacial-indifference-italic';
+    src: url('fonts/glacial-indifference-italic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'century-gothic';
+    src: url('fonts/century-gothic.ttf');
+    src: url('fonts/century-gothic.eot'#iefix) format('embedded-opentype'),
+    	 url('fonts/century-gothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*la personnalisation*/
+html{
+	height:100%;
+}
+body
+{	
+	display: flex;
+	height: 100%;
+	max-width: 80%;
+	margin:auto;
+	flex-direction: column;
+	justify-content: space-between;
+	background:#101733;
+	font-family: "glacial-indifference","century-gothic",arial;
+	color : white;
+}
+
+header 
+{
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+}
+header img
+{
+	max-width: 90%;
+	align-items: center; 
+	justify-content: center;
+}
+#mainlogo
+{
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+header ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+header li
+{
+	margin:0 20px 20px 20px;
+	margin-bottom: 0px;
+}
+footer
+{	
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 0px;
+}
+footer h1
+{
+	font-size:29px;
+	text-align: center;	
+}
+
+footer ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+footer img
+{
+	max-height:30px;
+	max-width: 30px;
+}
+
+footer li
+{
+	width: 50px;
+	height: 50px;
+	margin: 0 30px;
+	border-radius: 25px;
+	background: #c51417;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+footer li:hover
+{
+	background: #fab83d;
+}
