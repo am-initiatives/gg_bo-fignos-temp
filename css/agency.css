@@ -1,23 +1,6 @@
-@font-face {
-    font-family: 'Code-Bold';
-    src: url('fonts/code_bold.otf');
-}
-@font-face {
-    font-family: 'Ostrich-sans-black';
-    src: url('fonts/ostrich_sans_black.otf');
-}
-@font-face {
-    font-family: 'Glacial-Indiference';
-    src: url('fonts/glacial_indifference.otf');
-}
-@font-face{
-    font-family: 'Century-Gothic';
-    src: url('fonts/century_gothic.ttf');
-}
-
 body{
     overflow-x:hidden;
-    font-family:'Glacial-Indiference','Century-Gothic',Arial,sans-serif
+    font-family:'Quicksand',Arial,sans-serif
 }
 .text-muted{
     color:#cccccc
@@ -41,8 +24,13 @@ a{
 a:hover,a:focus,a:active,a.active{
     color:#990000
 }
-h1,h2,h3,h4,h5,h6{
-    font-family:'Ostrich-sans-black','Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+h1{
+    font-family: Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight:700;
+}
+h2,h3,h4,h5,h6{
+    font-family:'Khula','Quicksand',Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700
 }
@@ -59,7 +47,7 @@ h1,h2,h3,h4,h5,h6{
     color:#fff;
     background-color:#cc0000;
     border-color:#cc0000;
-    font-family:'Code-Bold','Ostrich-sans-black','Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Code-Bold','Khula','Quicksand','Century-Gothic',Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700
 }
@@ -83,7 +71,7 @@ h1,h2,h3,h4,h5,h6{
     color:#fff;
     background-color:#cc0000;
     border-color:#cc0000;
-    font-family:'Code-Bold','Ostrich-sans-black','Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Code-Bold','Khula','Quicksand','Century-Gothic',Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700;
     border-radius:3px;
@@ -112,7 +100,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .navbar-default .navbar-brand{
     color:#cc0000;
-    font-family:'Code-Bold','Ostrich-sans-black','Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Code-Bold','Khula','Quicksand','Century-Gothic',Arial,sans-serif;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active{
     color:#990000
@@ -131,7 +119,7 @@ h1,h2,h3,h4,h5,h6{
     background-color:#cc0000
 }
 .navbar-default .nav li a{
-    font-family:'Code-Bold','Ostrich-sans-black','Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Code-Bold','Khula','Quicksand','Century-Gothic',Arial,sans-serif;
     text-transform:uppercase;
     font-weight:400;
     letter-spacing:1px;
@@ -198,7 +186,7 @@ section h2.section-heading{
 }
 section h3.section-subheading{
     font-size:16px;
-    font-family:'Ostrich-sans-black','Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Khula','Quicksand','Century-Gothic',Arial,sans-serif;
     text-transform:none;
     font-style:italic;
     font-weight:400;
@@ -265,7 +253,7 @@ section h3.section-subheading{
     margin:0
 }
 #portfolio .portfolio-item .portfolio-caption p{
-    font-family:'Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Quicksand','Century-Gothic',Arial,sans-serif;
     font-style:italic;
     font-size:16px;
     margin:0
@@ -464,25 +452,25 @@ section#contact .form-control:focus{
     box-shadow:none
 }
 section#contact ::-webkit-input-placeholder{
-    font-family:'Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Quicksand','Century-Gothic',Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700;
     color:#bbb
 }
 section#contact :-moz-placeholder{
-    font-family:'Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Quicksand','Century-Gothic',Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700;
     color:#bbb
 }
 section#contact ::-moz-placeholder{
-    font-family:'Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Quicksand','Century-Gothic',Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700;
     color:#bbb;
 }
 section#contact :-ms-input-placeholder{
-    font-family:'Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Quicksand','Century-Gothic',Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700;
     color:#bbb;
@@ -515,13 +503,13 @@ footer{
 }
 footer span.copyright{
     line-height:40px;
-    font-family:'Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Quicksand','Century-Gothic',Arial,sans-serif;
     text-transform:none
 }
 footer ul.quicklinks{
     margin-bottom:0;
     line-height:40px;
-    font-family:'Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Quicksand','Century-Gothic',Arial,sans-serif;
     text-transform:none
 }
 ul.social-buttons{
@@ -567,7 +555,7 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 }
 .portfolio-modal .modal-content p.item-intro{
     margin:20px 0 30px;
-    font-family:'Glacial-Indiference','Century-Gothic',Arial,sans-serif;
+    font-family:'Quicksand','Century-Gothic',Arial,sans-serif;
     font-style:italic;
     font-size:16px
 }
